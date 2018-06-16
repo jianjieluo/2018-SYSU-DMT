@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FLAGS	../mnist_softmax.py	/^FLAGS = None$/;"	kind:variable	line:33
+bias_variable	../mnist_deep.py	/^def bias_variable(shape):$/;"	kind:function	line:100
+conv2d	../mnist_deep.py	/^def conv2d(x, W):$/;"	kind:function	line:83
+deepnn	../mnist_deep.py	/^def deepnn(x):$/;"	kind:function	line:22
+help	../mnist_softmax.py	/^                        help='Directory for storing input data')$/;"	kind:variable	line:82
+main	../mnist_deep.py	/^def main(_):$/;"	kind:function	line:106
+main	../mnist_softmax.py	/^def main(_):$/;"	kind:function	line:36
+max_pool_2x2	../mnist_deep.py	/^def max_pool_2x2(x):$/;"	kind:function	line:88
+mnist_deep.py	../mnist_deep.py	1;"	kind:file	line:1
+mnist_softmax.py	../mnist_softmax.py	1;"	kind:file	line:1
+parser	../mnist_softmax.py	/^    parser = argparse.ArgumentParser()$/;"	kind:variable	line:80
+weight_variable	../mnist_deep.py	/^def weight_variable(shape):$/;"	kind:function	line:94

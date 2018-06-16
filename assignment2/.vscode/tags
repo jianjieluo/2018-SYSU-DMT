@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+cnt	../detect.py	/^        cnt = contours[i]$/;"	kind:variable	line:29
+detect.py	../detect.py	1;"	kind:file	line:1
+erosion	../detect.py	/^    erosion = cv2.erode(thresh, kernel, iterations=2)$/;"	kind:variable	line:16
+gray	../detect.py	/^    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)$/;"	kind:variable	line:7
+img	../detect.py	/^    img = cv2.imread('.\/input.jpg')$/;"	kind:variable	line:6
+kernel	../detect.py	/^    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))$/;"	kind:variable	line:15
+n	../detect.py	/^    n = len(contours)$/;"	kind:variable	line:25
+outputs	../detect.py	/^    outputs = []$/;"	kind:variable	line:26
+part_img	../detect.py	/^        part_img = img[y:y + h, x:x + w]$/;"	kind:variable	line:34

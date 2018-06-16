@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+M	../main.py	/^    M = cv2.getPerspectiveTransform(pts1, pts2)$/;"	kind:variable	line:79
+dis	../main.py	/^                    dis = (x - x0)**2 + (y - y0)**2$/;"	kind:variable	line:40
+dst	../main.py	/^    dst = cv2.warpPerspective(img, M, (width, height))$/;"	kind:variable	line:81
+edges	../main.py	/^    edges = cv2.Canny(img, 100, 200)$/;"	kind:variable	line:9
+flag	../main.py	/^                        flag = False$/;"	kind:variable	line:43
+flag	../main.py	/^                flag = True$/;"	kind:variable	line:38
+img	../main.py	/^    img = cv2.imread('.\/input.jpg', 0)$/;"	kind:variable	line:7
+k1	../main.py	/^            k1 = -1 \/ l1_tan$/;"	kind:variable	line:29
+k2	../main.py	/^            k2 = -1 \/ l2_tan$/;"	kind:variable	line:30
+l1_tan	../main.py	/^            l1_tan = np.tan(theta1)$/;"	kind:variable	line:26
+l2_tan	../main.py	/^            l2_tan = np.tan(theta2)$/;"	kind:variable	line:27
+lines	../main.py	/^    lines = []$/;"	kind:variable	line:13
+main.py	../main.py	1;"	kind:file	line:1
+n	../main.py	/^    n = len(lines)$/;"	kind:variable	line:19
+p	../main.py	/^    p = [list(x) for x in points]$/;"	kind:variable	line:71
+points	../main.py	/^    points = []$/;"	kind:variable	line:20
+points	../main.py	/^    points = sorted(p, key=lambda x: x[1])$/;"	kind:variable	line:72
+pts1	../main.py	/^    pts1 = np.float32([points[0], points[1], points[2], points[3]])$/;"	kind:variable	line:76
+pts2	../main.py	/^    pts2 = np.float32([[0, 0], [width, 0], [0, height], [width, height]])$/;"	kind:variable	line:77
+raw_lines	../main.py	/^    raw_lines = cv2.HoughLines(edges, 1, np.pi \/ 180, 130)$/;"	kind:variable	line:11
+x	../main.py	/^                x = int((rho1 \/ np.cos(theta1) - rho2 \/$/;"	kind:variable	line:33
+y	../main.py	/^                y = int((rho1 \/ np.sin(theta1) - rho2 \/ np.sin(theta2)) \/$/;"	kind:variable	line:35

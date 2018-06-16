@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+MAX_ITERATION	../mnist_deep.py	/^MAX_ITERATION = 20000$/;"	kind:variable	line:22
+_reverse	../split.py	/^    def _reverse(t): return 255 - t$/;"	kind:function	line:51
+bias_variable	../mnist_deep.py	/^def bias_variable(shape):$/;"	kind:function	line:103
+checkpoint_dir	../main.py	/^checkpoint_dir = '.\/checkpoint'$/;"	kind:variable	line:26
+checkpoint_dir	../mnist_deep.py	/^checkpoint_dir = '.\/checkpoint'$/;"	kind:variable	line:21
+cnt	../detect.py	/^        cnt = contours[i]$/;"	kind:variable	line:26
+conv2d	../mnist_deep.py	/^def conv2d(x, W):$/;"	kind:function	line:86
+deepnn	../mnist_deep.py	/^def deepnn(x):$/;"	kind:function	line:25
+detect.py	../detect.py	1;"	kind:file	line:1
+erosion	../detect.py	/^    erosion = cv2.erode(thresh, kernel, iterations=2)$/;"	kind:variable	line:16
+getA4	../getA4.py	/^def getA4():$/;"	kind:function	line:5
+getA4.py	../getA4.py	1;"	kind:file	line:1
+get_row_hist	../split.py	/^def get_row_hist(binary_img):$/;"	kind:function	line:5
+get_test_data	../main.py	/^def get_test_data():$/;"	kind:function	line:29
+gray	../detect.py	/^    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)$/;"	kind:variable	line:7
+identify	../main.py	/^def identify():$/;"	kind:function	line:48
+img	../detect.py	/^    img = cv2.imread('.\/input.jpg')$/;"	kind:variable	line:6
+kernel	../detect.py	/^    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))$/;"	kind:variable	line:15
+main	../mnist_deep.py	/^def main(_):$/;"	kind:function	line:109
+main.py	../main.py	1;"	kind:file	line:1
+max_pool_2x2	../mnist_deep.py	/^def max_pool_2x2(x):$/;"	kind:function	line:91
+mnist_deep.py	../mnist_deep.py	1;"	kind:file	line:1
+n	../detect.py	/^    n = len(contours)$/;"	kind:variable	line:22
+outputs	../detect.py	/^    outputs = []$/;"	kind:variable	line:23
+part_img	../detect.py	/^        part_img = img[y:y + h, x:x + w]$/;"	kind:variable	line:32
+prepare_data	../split.py	/^def prepare_data(origin):$/;"	kind:function	line:44
+res	../main.py	/^    res = identify()$/;"	kind:variable	line:77
+res	../split.py	/^    res = split_img()$/;"	kind:variable	line:140
+sort_contours	../split.py	/^def sort_contours(contours):$/;"	kind:function	line:32
+split	../split.py	/^def split(img, row_id):$/;"	kind:function	line:84
+split.py	../split.py	1;"	kind:file	line:1
+split_img	../split.py	/^def split_img():$/;"	kind:function	line:120
+split_row	../split.py	/^def split_row(img, row_hist):$/;"	kind:function	line:14
+weight_variable	../mnist_deep.py	/^def weight_variable(shape):$/;"	kind:function	line:97
